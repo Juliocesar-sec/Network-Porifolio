@@ -1,9 +1,9 @@
 # 🔥 What is a Firewall?
 
 * A firewall is a system (software or hardware) that controls network traffic, allowing or blocking connections based on security rules.
-```
-👉 It works like a “bouncer” or gatekeeper for your network:
 
+👉 It works like a “bouncer” or gatekeeper for your network:
+```
 Decides who can enter
 Decides who can leave
 Filters what is safe versus what is suspicious
@@ -18,9 +18,9 @@ Main functions:
 .🛡️ Reduce the attack surface;
 .📊 Monitor suspicious activity;
 .🚫 Prevent exploitation of ports and services.
-
-👉 Without a firewall = your network is practically exposed.
 ```
+👉 Without a firewall = your network is practically exposed.
+
 
 ## 🌐 DNS / Name Resolution (Port 53/tcp)
 
