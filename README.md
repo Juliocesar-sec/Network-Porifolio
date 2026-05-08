@@ -53,7 +53,8 @@ I am an IT Support and Network Technician with experience providing technical su
 - Google IT Support Professional Certificate
 - Cisco Certified Support Technician (CCST)
 - Cisco Networking Basics
-
+- 
+---
 
 # 🚀 Projects
 
