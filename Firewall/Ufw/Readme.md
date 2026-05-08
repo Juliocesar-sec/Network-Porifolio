@@ -1,6 +1,3 @@
-Here's the clean, natural, and well-formatted English translation:
-
----
 
 🔥 **UFW – Practical Guide (README)**
 
