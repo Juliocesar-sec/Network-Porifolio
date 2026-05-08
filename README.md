@@ -1,4 +1,4 @@
-### 🌐 IT Support & Network Technician Portfolio
+# 🌐 IT Support & Network Technician Portfolio
 
 ---
  <Juliocesar-sec>
@@ -6,7 +6,7 @@
 Welcome to my professional portfolio repository.  
 This portfolio highlights my experience in IT Support, troubleshooting, networking, and technical operations using Google Workspace and Cisco technologies.
 
-# 🧑 About Me
+### 🧑 About Me
 
 I am an IT Support and Network Technician with experience providing technical support, maintaining computer networks, troubleshooting connectivity issues, and supporting end users in business environments.
 
