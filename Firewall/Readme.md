@@ -32,7 +32,7 @@ DNS (Domain Name System) translates human-readable names into IP addresses, for 
 google.com → 142.250.x.x
 ```
 
-# ⚠️ Risks:
+### ⚠️ Risks:
 
 * DNS Spoofing / Cache Poisoning
 
@@ -50,7 +50,7 @@ Allow DNS traffic only to trusted servers
 Block unnecessary external queries
 Monitor for anomalous DNS traffic
 
-# 🖥️ REMOTE ACCESS
+## 🖥️ REMOTE ACCESS
 
 * What is Encrypted Remote Access (SSH)?
 
@@ -139,7 +139,7 @@ Change from 22 to something like 2222 or 2244 to reduce automated bot scans.
 . For high-security environments, use advanced tools like Teleport, Bastion hosts, or Zero Trust solutions instead of direct SSH.
 ```
 
-# ⚠️ Risks:
+### ⚠️ Risks:
 
 Brute-force attacks
 Weak passwords
@@ -156,7 +156,7 @@ Prefer key-based authentication (instead of passwords)
 ```
 Does not use encryption
 
-# ⚠️ Risks:
+### ⚠️ Risks:
 
 Credentials sent in plain text
 Session hijacking
@@ -170,7 +170,7 @@ Replace with SSH
 ```
 Graphical remote desktop access
 
-# ⚠️ Risks:
+### ⚠️ Risks:
 
 Weak passwords
 No encryption (in older versions)
@@ -191,7 +191,7 @@ https://github.com/Juliocesar-sec/cybersecurity-learning-portfolio/tree/main/lab
 🔸 21/tcp – FTP
 ```
 
-# ⚠️ Risks:
+### ⚠️ Risks:
 
 Clear-text login
 Malware uploads
@@ -203,7 +203,7 @@ Block public access
 
 🔸 445/tcp – SMB (Highly Critical 🚨)
 
-# ⚠️ Risks:
+### ⚠️ Risks:
 
 Ransomware (e.g., WannaCry)
 Remote Code Execution (RCE)
@@ -216,7 +216,7 @@ Allow only on internal networks
 
 🔸 2049/tcp – NFS
 
- ⚠️ Risks:
+ ### ⚠️ Risks:
 
 Unauthorized directory access
 Privilege escalation
@@ -233,8 +233,8 @@ Configure exports properly
 🔸 5432 – PostgreSQL
 🔸 6379 – Redis
 🔸 27017 – MongoDB
-
-⚠️ Common Risks:
+```
+### ⚠️ Common Risks:
 
 Databases exposed to the internet
 Weak passwords
@@ -246,13 +246,14 @@ Lack of authentication
 
 Allow access only from internal network or VPN
 Firewall should block everything by default
-```
 
 ## ⚙️ SYSTEM SERVICES
+
 ```
 🔸 111/tcp – rpcbind
 ```
-# ⚠️ Risks:
+
+### ⚠️ Risks:
 
 Service enumeration
 Exposure of internal information
@@ -276,7 +277,7 @@ Block at the network edge
 ```
 🔸 5353/udp – mDNS
 ```
- # ⚠️ Risks:
+ ### ⚠️ Risks:
 
 Local information leakage
 Spoofing
