@@ -12,8 +12,8 @@ Filters what is safe versus what is suspicious
 
 ## 🎯 Importance in IT and Cybersecurity
 
-**The firewall is one of the first lines of defense in any network.**
-Main functions:
+**The firewall is one of the first lines of defense in any network.
+Main functions:**
 
 .🔐 Block unauthorized access;
 .🌍 Control internet traffic;
