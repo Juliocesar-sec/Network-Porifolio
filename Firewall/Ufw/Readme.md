@@ -1,4 +1,4 @@
----
+
 ### 🔥 UFW – Practical Guide (README)
 
 📌 **What is UFW?**
@@ -204,4 +204,4 @@ UFW is ideal for:
 
 👉 **Golden Rule:**  
 **“Open only what is necessary — everything else should remain blocked.”**
----
+
