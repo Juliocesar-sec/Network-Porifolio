@@ -166,7 +166,7 @@ Logs are stored in:
 - 📉 Keep the number of open ports to a minimum  
 - 📊 Monitor logs frequently  
 
-## 🔄 UFW vs IPTABLES
+### 🔄 UFW vs IPTABLES
 
 | Feature          | UFW                  | IPTABLES                  |
 |------------------|----------------------|---------------------------|
