@@ -72,18 +72,21 @@ Each VLAN was configured to improve network organization and reduce unnecessary 
 
 #  Network Features
 
-## Router Configuration
+**Router Configuration**
+
 - Interface setup
 - IP addressing
 - DHCP services
 - Default gateway configuration
-
-## Switch Configuration
+- 
+**Switch Configuration**
+  
 - VLAN assignment
 - Trunk configuration
 - Access ports
 
-## Wireless Setup
+**Wireless Setup**
+
 - Wireless network configuration
 - Client connectivity testing
 
