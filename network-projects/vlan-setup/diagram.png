@@ -1,1 +1,11 @@
 
+                 ┌─────────────────┐
+                 │     Switch      │
+                 └─────────────────┘
+                    |    |    |
+          -----------    |    -----------
+         |               |               |
+      VLAN 10         VLAN 20         VLAN 30
+   Administration      Sales         IT Support
+         |               |               |
+       PC1             PC2             PC3
