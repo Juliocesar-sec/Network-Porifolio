@@ -45,8 +45,10 @@ ufw-colorlog
 ```
 Note: Since the script reads Kernel logs (journalctl -k), it will request your sudo password to ensure data security.
 
-📋 System requirements
+***📋 System requirements***
 
+```
 Operating System: Debian, Ubuntu (or derivatives)
 Firewall: UFW installed and enabled (sudo ufw enable)
 Dependencies: ccze (installed automatically by the script) and awk
+```
