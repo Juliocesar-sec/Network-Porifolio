@@ -231,16 +231,16 @@ This involves:
    - Prefer using VPN instead of direct exposure  
 
 🔸 **Telnet (23)**  
-   - ❌ **Block completely**  
+   - Block completely
 
 🔸 **SMB (445)**  
-   - ❌ **Never expose on WAN**  
+   - Never expose on WAN
 
 🔸 **Databases (3306, 5432, etc.)**  
-   - ❌ Only allow from internal network or VPN  
+   - Only allow from internal network or VPN  
 
 🔸 **UPnP (1900/udp)**  
-   - ⚠️ Disable whenever possible
+   - Disable whenever possible
 
      
 ---
