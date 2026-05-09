@@ -114,17 +114,47 @@ and translates it into a machine-readable address:
 ```
 Our vision is that understanding networking starts with understanding how systems locate each other. DNS exists because communication on the internet depends on translating human-friendly names into precise network destinations.
 
-⚠️**Risks:**
+⚠️**Common DNS Security Threats:**
 
-* DNS Spoofing / Cache Poisoning
+DNS is a critical part of internet infrastructure, which also makes it a frequent target for attackers. When DNS is misconfigured or not properly secured, it can be exploited in different ways to redirect traffic, leak sensitive data, or amplify attacks.
+
+**DNS Spoofing / Cache Poisoning**
+
+Attackers manipulate or corrupt DNS responses so that users are redirected to malicious or fake websites without realizing it.
+
+This type of attack works by injecting false DNS records into a resolver’s cache, causing future requests to return incorrect IP addresses.
 
 → Attackers manipulate DNS responses to redirect victims to malicious sites.
-DDoS Amplification
+Impact:
 
-→ DNS servers are abused to amplify attacks against third parties.
-Unauthorized Zone Transfer
+* Users may be redirected to phishing sites
+* Credentials can be stolen
+* Legitimate services may be impersonated
 
-→ Leakage of the entire domain structure and internal records.
+***DDoS Amplification***
+
+→ DNS servers are abused to amplify attacks against third parties.DNS servers can be abused to increase the scale of Distributed Denial of Service (DDoS) attacks.
+
+Attackers send small queries that trigger much larger responses, which are then directed toward a victim system.
+
+Impact:
+
+* Massive traffic overload on target systems
+* Service downtime or instability
+* Infrastructure resource exhaustion
+
+***Unauthorized Zone Transfer***
+
+→ Leakage of the entire domain structure and internal records.Zone transfers are used to copy DNS records between servers. If improperly secured, attackers can request full zone transfers and obtain the entire DNS structure of a domain.
+
+This may expose internal naming conventions and infrastructure details.
+
+Impact:
+
+* Exposure of internal hostnames and services
+* Mapping of network architecture
+* Increased risk of targeted attacks
+
 
 ***🛡️ Protection with Firewall:***
 
