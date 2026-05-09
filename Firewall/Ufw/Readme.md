@@ -1,5 +1,5 @@
 
-## 🔥 UFW – Practical Guide (README)
+##  UFW – Practical Guide 
 
 📌 ***What is UFW?***
 
@@ -31,7 +31,7 @@ UFW simplifies administration, but understanding the underlying concepts of port
 
 Our vision is that Linux firewall management should be approachable without sacrificing reliability. UFW exists because many administrators want a firewall that feels practical, readable, and fast to configure, while still relying on the proven security foundations of the Linux kernel firewall stack.
 
-# 🚀 Essential Commands
+#  Essential Commands
 
 **Enable the firewall:**
 
@@ -66,7 +66,7 @@ Interface-specific configurations
 
 This is one of the most useful commands for verifying whether the firewall is configured correctly.
 
-## 🔐 Recommended Initial Configuration
+##  Recommended Initial Configuration
 
 Set default policies:
 
@@ -79,7 +79,7 @@ sudo ufw default allow outgoing
 - Block everything trying to enter  
 - Allow everything going out  
 
-## 🛡️ Basic Rules
+##  Basic Rules
 
 **Allow SSH (port 22)**
 
@@ -106,7 +106,7 @@ sudo ufw deny 23/tcp
 sudo ufw allow 53
 ```
 
-## 🌐 Security-Focused Examples (Based on Critical Ports)
+##  Security-Focused Examples (Based on Critical Ports)
 
 **🔸 SSH (22) – Protect against brute-force**
 
@@ -147,7 +147,7 @@ sudo ufw allow from 192.168.1.100
 sudo ufw deny from 10.0.0.5
 ```
 
-## 🔍 Rule Management
+##  Rule Management
 
 **List rules with numbers:**
 
@@ -189,7 +189,7 @@ Logs are stored in:
 - 📉 Keep the number of open ports to a minimum  
 - 📊 Monitor logs frequently  
 
-### 🔄 UFW vs IPTABLES
+###  UFW vs IPTABLES
 
 | Feature          | UFW                  | IPTABLES                  |
 |------------------|----------------------|---------------------------|
@@ -217,7 +217,7 @@ sudo ufw allow 1000:2000/tcp
 sudo ufw allow in on eth0 to any port 22
 ```
 
-# 🧾 Summary
+#  Summary
 
 UFW is ideal for:
 
