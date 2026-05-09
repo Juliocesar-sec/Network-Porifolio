@@ -287,7 +287,7 @@ This involves:
 
  Running pfSense effectively is not just about configuring rules, but about maintaining a secure and controlled network posture over time. Good firewall design follows consistent principles that reduce exposure and simplify troubleshooting.
 
-- 🔒 Principle of least privilege
+**Principle of least privilege**
 
  Only allow the minimum level of access required for systems and users to function.
 
@@ -297,7 +297,7 @@ This involves:
 
 This reduces the attack surface and prevents unnecessary exposure of services.
 
-- 🌐 Use VPN for remote access
+**Use VPN for remote access**
 
 Remote administration should never rely on direct exposure of internal services.
 
@@ -307,7 +307,7 @@ Remote administration should never rely on direct exposure of internal services.
 
 This ensures secure access without opening internal systems to the public internet.
 
-- 🚫 Minimize open ports
+**Minimize open ports**
 
 Every open port represents a potential entry point.
 
@@ -317,7 +317,7 @@ Every open port represents a potential entry point.
 
 A smaller attack surface means fewer opportunities for exploitation.
   
-- 📊 Monitor logs constantly
+**Monitor logs constantly**
   
 Logging provides visibility into network activity and potential threats.
 
@@ -327,7 +327,7 @@ Logging provides visibility into network activity and potential threats.
 
 Consistent monitoring helps detect issues before they escalate.
   
-- 🔄 Keep the system updated regularly
+**Keep the system updated regularly**
  
 Security updates are essential for maintaining system integrity.
 
@@ -339,7 +339,7 @@ Unpatched systems are one of the most common causes of firewall compromise.
 
 ---
 
-🔄 **pfSense vs UFW vs IPTABLES**
+## pfSense vs UFW vs IPTABLES
 
 | Feature              | pfSense                  | UFW                    | IPTABLES                  |
 |----------------------|--------------------------|------------------------|---------------------------|
