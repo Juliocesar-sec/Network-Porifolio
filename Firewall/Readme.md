@@ -30,7 +30,7 @@ A useful way to understand a firewall is to imagine it as a gatekeeper or securi
 
 👉 **It works like a “bouncer” or gatekeeper for your network:**
 
-It decides:
+It decides who can enter Decides who can leave Filters what is safe versus what is suspicious:
 
 * Who can enter
 * Who can leave
