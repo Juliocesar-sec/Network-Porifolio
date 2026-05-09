@@ -132,6 +132,8 @@ Allow DNS traffic only to trusted servers
 Block unnecessary external queries
 Monitor for anomalous DNS traffic
 
+---
+
 ##  REMOTE ACCESS
 
 ***What is Encrypted Remote Access (SSH)?***
@@ -269,7 +271,9 @@ Enable encryption
 https://github.com/Juliocesar-sec/cybersecurity-learning-portfolio/tree/main/labs/ssh-lab
 
 ```
-## 📁 FILE SHARING
+---
+
+##  FILE SHARING
 
 ```bash
 🔸 21/tcp – FTP
