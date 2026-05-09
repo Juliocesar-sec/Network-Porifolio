@@ -1,4 +1,4 @@
-# 🔥 FIREWALL 🔥
+#  FIREWALL 
 
 **What is a Firewall?**
 
@@ -70,7 +70,7 @@ That said, a firewall should not be viewed as a complete security solution by it
 
 ---
 
-## 🌐 DNS / Name Resolution (Port 53/tcp)
+##  DNS / Name Resolution (Port 53/tcp)
 
  **What is DNS?**
 
