@@ -155,12 +155,50 @@ Impact:
 * Mapping of network architecture
 * Increased risk of targeted attacks
 
+DNS security is important because DNS operates as a foundational lookup system for almost all internet communication. If compromised, it can silently redirect, expose, or disrupt large parts of network activity without immediately obvious signs.
 
 ***🛡️ Protection with Firewall:***
 
-Allow DNS traffic only to trusted servers
-Block unnecessary external queries
-Monitor for anomalous DNS traffic
+Firewalls can play an important role in reducing DNS-related attacks by controlling how DNS traffic is allowed, restricted, and monitored within a network.
+
+Because DNS is a fundamental service used in almost every internet request, securing it helps prevent redirection attacks, data leaks, and abuse of network infrastructure.
+
+***Allow DNS traffic only to trusted servers***
+
+A firewall can be configured to permit DNS queries only to known and trusted DNS resolvers (for example, internal company servers or reputable public resolvers).
+
+This reduces the risk of:
+
+* Malicious DNS redirection
+* Unauthorized resolvers intercepting queries
+* Data leakage through unknown DNS servers
+
+***Block unnecessary external queries***
+
+Firewalls can restrict outbound DNS traffic so that internal devices cannot freely query any external DNS server.
+
+This helps prevent:
+
+* Devices bypassing security policies
+* Malware using external DNS for communication
+* Hidden or unauthorized DNS tunneling
+
+***Monitor for anomalous DNS traffic***
+
+Firewall logging and inspection features can be used to detect unusual DNS behavior, such as:
+
+* Excessive DNS requests in a short time
+* Queries to suspicious or unknown domains
+* Repeated failed lookups
+* Unusual outbound DNS destinations
+  
+  This kind of monitoring helps identify early signs of:
+
+* DNS tunneling attempts
+* Compromised devices
+* Misconfigured systems or malicious activity
+  
+A properly configured firewall does not just block threats, it also provides visibility. In the case of DNS, this visibility is critical for detecting abnormal patterns before they escalate into larger security incidents.
 
 ---
 
