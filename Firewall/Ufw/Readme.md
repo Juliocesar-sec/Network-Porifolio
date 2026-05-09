@@ -35,21 +35,36 @@ Our vision is that Linux firewall management should be approachable without sacr
 
 **Enable the firewall:**
 
+This command activates UFW and starts enforcing all configured firewall rules on the system.
+
 ```bash
 sudo ufw enable
 ```
+Once enabled, incoming and outgoing traffic will be filtered according to the active rule set.
 
 **Disable the firewall:**
 
+This command completely disables UFW and stops firewall rule enforcement.
 ```bash
 sudo ufw disable
 ```
+Disabling the firewall removes active protections, so it should only be done intentionally and with awareness of the security implications.
 
 **Check status:**
 
+This command displays the current firewall state together with active rules and configuration details.
 ```bash
 sudo ufw status verbose
 ```
+The verbose mode provides additional information such as:
+
+Default policies
+Active logging state
+Allowed or blocked ports
+Direction of traffic rules
+Interface-specific configurations
+
+This is one of the most useful commands for verifying whether the firewall is configured correctly.
 
 ## 🔐 Recommended Initial Configuration
 
