@@ -181,11 +181,44 @@ https://192.168.1.1
 
 🛡️ **Basic Security Rules**
 
+A secure firewall configuration is built on a simple but strict rule structure: deny everything by default, then explicitly allow only what is required.
+
+This approach reduces exposure and ensures that every open path into the network is intentional and controlled.
+
 🔸 **Block everything from WAN** (Default rule – very important)  
+
+By default, all incoming traffic from the WAN (internet-facing interface) should be blocked.
+
+* Prevents unsolicited external access
+* Protects internal systems from direct exposure
+* Reduces attack surface significantly
+
+This is the foundation of perimeter security in pfSense.
+
 🔸 **Allow LAN → Internet** (So internal users can browse normally)  
+
+Internal devices on the LAN typically need access to external services such as websites, updates, and APIs.
+
+* Allows outbound traffic from trusted internal users
+* Enables normal internet browsing and communication
+* Keeps internal networks functional without exposing them externally
+
+This rule is usually broad but still controlled by internal network boundaries.
+
 🔸 **Port Forwarding** (Open specific ports)  
-   Example: Expose an internal web server  
-   - WAN port 80 → Internal server IP  
+Port forwarding is used to expose specific internal services to external users in a controlled way.
+
+Instead of exposing an entire network, only selected ports and services are made accessible.
+
+ Example use case:
+ 
+* Exposing an internal web server to the internet
+
+This involves:
+
+* Mapping an external port (WAN) → internal server (LAN)
+* Restricting access to specific services (e.g., HTTP/HTTPS only)
+* Applying firewall rules to limit exposure
 
 🌐 **Security Based on Critical Ports**
 
@@ -207,9 +240,11 @@ https://192.168.1.1
    - ❌ Only allow from internal network or VPN  
 
 🔸 **UPnP (1900/udp)**  
-   - ⚠️ Disable whenever possible  
+   - ⚠️ Disable whenever possible
+     
+---
 
-📁 **Advanced Features**
+ **Advanced Features**
 
 🔹 **VLANs**  
    - Network segmentation (e.g., IT, Guests, IoT)  
