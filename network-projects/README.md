@@ -83,7 +83,7 @@ Collection of troubleshooting scenarios and solutions for common networking issu
 
 ---
 
-## ☁️ Google Workspace Support
+##  Google Workspace Support
 
 Folder: `google-workspace-support/`
 
@@ -129,7 +129,7 @@ Documentation and support procedures related to Google Workspace administration.
 
 ---
 
-# 🎯 Purpose
+# Purpose
 
 The purpose of this repository is to demonstrate practical IT support and networking skills through hands-on labs, troubleshooting documentation, and network configuration examples.
 
