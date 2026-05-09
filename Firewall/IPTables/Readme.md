@@ -1,5 +1,3 @@
-
-
 #  IPTABLES – Practical Guide 
 
 📌 **What is IPTABLES?**
