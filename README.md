@@ -28,7 +28,7 @@ Our vision is that good IT support should combine technical competence, communic
 
 #  Skills
 
- ***IT Support***
+ ***IT Support***-
  Practical support skills focused on diagnosing, maintaining, and resolving common technical problems across user environments.
  
 - Technical Troubleshooting
@@ -39,7 +39,7 @@ Our vision is that good IT support should combine technical competence, communic
 - Help Desk Support
 - Google Workspace Administration
 - 
-***Networking***
+***Networking***-
   Foundational networking knowledge applied to local networks, routing, switching, and connectivity troubleshooting.
 - Cisco Networking Fundamentals
 - TCP/IP
@@ -48,9 +48,9 @@ Our vision is that good IT support should combine technical competence, communic
 - Network Troubleshooting
 - Wi-Fi Setup & Support
 - Basic Firewall Configuration
- 🌐 IT Support & Network Technician Portfolio
 
- ***Tools & Technologies***
+
+ ***Tools & Technologies***-
  Technologies and platforms commonly used in support and networking environments.
 - Cisco Packet Tracer
 - Google Workspace
@@ -59,7 +59,7 @@ Our vision is that good IT support should combine technical competence, communic
 - Microsoft Office
 - Remote Desktop Tools
 
-# 📜 Certifications
+#  Certifications
 
 - Google IT Support Professional Certificate
 - Cisco Certified Support Technician (CCST)
@@ -67,9 +67,9 @@ Our vision is that good IT support should combine technical competence, communic
 - 
 ---
 
-# 🚀 Projects
+#  Projects
 
-### 🏢 Office Network Setup
+###  Office Network Setup
 Designed and configured a small office network with:
 - Router and switch configuration
 - VLAN setup
@@ -77,14 +77,14 @@ Designed and configured a small office network with:
 - Basic network security
 
 
-### 🖥️ IT Support Lab
+###  IT Support Lab
 Performed:
 - Operating system installation
 - User support and troubleshooting
 - Printer and device configuration
 - System maintenance
 
-### 📡 Network Troubleshooting
+###  Network Troubleshooting
 Diagnosed and resolved:
 - IP conflicts
 - DNS issues
