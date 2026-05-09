@@ -1,5 +1,5 @@
 
-# 🌐 DNS Troubleshooting Guide
+# DNS Troubleshooting Guide
 
 ## Overview
 
@@ -19,7 +19,7 @@ DNS problems can prevent users from accessing websites and network services even
 
 ---
 
-# 🔍 Diagnostic Steps
+# Diagnostic Steps
 
  1. **Check Internet Connectivity**
 
