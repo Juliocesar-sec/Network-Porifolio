@@ -9,7 +9,7 @@ DNS problems can prevent users from accessing websites and network services even
 
 ---
 
-# ⚠️ Common Symptoms
+⚠️ **Common Symptoms**
 
 - Websites do not load
 - “DNS Server Not Responding” message
@@ -61,10 +61,61 @@ Linux
 cat /etc/resolv.conf
 ```
 
+4. **Flush DNS Cache**
+ 
+Windows
+```
+ipconfig /flushdns
+```
 
+Linux
+```
+sudo systemd-resolve --flush-caches
+```
 
+5. **Restart Network Services**
 
+Restart:
 
+- Router
+- DNS service
+- Network adapter
+
+**Common Solutions**
+
+-Configure public DNS servers:
+   8.8.8.8
+   1.1.1.1
+- Restart router
+- Renew IP configuration
+- Clear DNS cache
+- Disable problematic VPNs or proxies
+
+---
+
+**Resolution Example**
+
+Issue:
+Users could access websites using IP addresses but not domain names.
+
+Cause:
+Incorrect DNS server configured on the router.
+
+Fix:
+Updated DNS configuration to Google DNS (8.8.8.8).
+
+Result:
+Normal internet access restored.
+
+---
+
+**Skills Demonstrated**
+
+- DNS Troubleshooting
+- TCP/IP Diagnostics
+- Network Configuration
+- Command-Line Troubleshooting
+- Connectivity Testing
 
 
 
