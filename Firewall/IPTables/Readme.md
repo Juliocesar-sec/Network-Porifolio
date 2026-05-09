@@ -1,6 +1,6 @@
 
 
-# 🔥 **IPTABLES – Practical Guide (README)**
+#  IPTABLES – Practical Guide 
 
 📌 **What is IPTABLES?**
 
@@ -31,7 +31,7 @@ Modern Linux systems may also provide nftables, which replaces some internal ipt
 
 Our vision is that practical Linux networking knowledge should focus on understanding how packets actually move through the system, not only on using graphical tools. iptables exists because sometimes the most reliable solution is still a clear set of rules running directly inside the kernel.
 
-# 🧠 **Basic Concepts**
+#  Basic Concepts
 
 Understanding iptables starts with understanding how packets move through the Linux networking stack. The firewall evaluates traffic using a combination of tables, chains, and targets.
 
