@@ -21,7 +21,7 @@ An IP conflict occurs when two devices are assigned the same IP address, causing
 
 #  Diagnostic Steps
 
-1. **Identify the Affected Device**
+**1. Identify the Affected Device**
 
 Windows
 ```bash
@@ -39,7 +39,7 @@ Record:
 - MAC address
 - Network adapter
 
-2. **Test Connectivity**
+ **2. Test Connectivity**
 
 ```
 ping <gateway-ip>
@@ -47,7 +47,7 @@ ping <gateway-ip>
 
 Check whether the device can communicate with the network gateway.
 
-3. **Verify DHCP Configuration**
+ **3. Verify DHCP Configuration**
 
 Check:
 
@@ -56,7 +56,7 @@ Check:
 - Reserved addresses
 - Static IP assignments
 
-4. **Scan the Network**
+ **4. Scan the Network**
 
 Use:
 
