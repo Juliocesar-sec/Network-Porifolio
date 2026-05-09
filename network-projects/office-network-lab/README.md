@@ -1,14 +1,12 @@
 #  Office Network Lab
 
-## Overview
+**Overview**
 
 This project simulates a small office network using Cisco Packet Tracer. The objective of the lab is to demonstrate foundational networking skills including router and switch configuration, VLAN setup, wireless connectivity, and basic network troubleshooting.
 
 The lab represents a simple business environment where multiple departments communicate through a structured local network.
 
----
-
-#  Objectives
+**Objectives**
 
 - Configure a small office network
 - Implement VLAN segmentation
