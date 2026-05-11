@@ -65,7 +65,10 @@ Verified that Wireshark 4.4.15 was successfully installed.
 
 In this part of the lab, Wireshark is used to capture and analyze ARP (Address Resolution Protocol) traffic on the local network. The goal is to observe how devices resolve IP addresses into MAC addresses when communicating on a LAN.
 
-## **Step 1: Identify IP and MAC Address (Debian 13)**
+## Step 1: Retrieve your PC’s interface addresses. 
+
+
+### ** 1A: Identify IP and MAC Address (Debian 13)**
 
 Before capturing traffic, the PC’s network information is required.
 
