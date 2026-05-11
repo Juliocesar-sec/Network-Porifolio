@@ -207,7 +207,7 @@ Followed by an ARP Reply from the gateway containing its MAC address.
 
 After the MAC address was resolved, the ICMP ping requests and replies were exchanged successfully between the PC and the default gateway.
 
-3A — Analyze the ARP Request Frame
+## **3A — Analyze the ARP Request Frame**
 
 The highlighted packet in Wireshark displayed the details of an ARP Request Ethernet frame.
 
@@ -227,15 +227,15 @@ Protocol	ARP
 
 The ARP request was sent as a broadcast because the sender did not yet know the MAC address associated with the target IPv4 address.
 
-Ethernet Frame Analysis
+**Ethernet Frame Analysis**
 
 The Ethernet II frame encapsulated the ARP packet and provided Layer 2 addressing information required for communication on the local network.
 
 Wireshark displayed the frame details in three sections:
 
-Packet List Pane — Summary of captured packets
-Packet Details Pane — Protocol and frame information
-Packet Bytes Pane — Raw hexadecimal frame data
+1.Packet List Pane — Summary of captured packets
+2.Packet Details Pane — Protocol and frame information
+3.Packet Bytes Pane — Raw hexadecimal frame data
 
 ## **3B — Analyze the ARP Reply Frame**
 
