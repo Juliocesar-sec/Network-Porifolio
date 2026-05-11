@@ -348,7 +348,7 @@ The dynamically learned entries remain cached temporarily before expiring if unu
 
 ---
 
-### **5B — View Additional ARP/Neighbor Command Options**
+### **3B — View Additional ARP/Neighbor Command Options**
 
 Additional options for the `ip neigh` command can be viewed using:
 
