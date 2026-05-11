@@ -230,7 +230,6 @@ The ARP request was broadcast because the sender did not yet know the MAC addres
 
 ![Step 3A – ARP Request](INSERT_SCREENSHOT_HERE)
 
----
 
 ### **3B — Examine Ethernet II Header Information**
 
