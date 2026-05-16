@@ -2,30 +2,32 @@
 
 This repository provides a simple way to install and activate **AdGuard Home** on your server. AdGuard Home allows you to **block ads network**-wide and **monitor traffic** across all your devices.
 
+⚠️ Note: All information about installation, configuration, and advanced guides is available in the **official AdGuard Home repository**: [AdGuardHome on GitHub](https://github.com/AdguardTeam/AdGuardHome)
+
 ---
 
 ## Installation
 
 You can install AdGuard Home using one of the following methods:
 
-### Using `curl`
+**Using `curl`**
 
 ```bash
 curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
 ```
-Using wget
+**Using wget**
 
 ```
 wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
 ```
 
-Using fetch
+**Using fetch**
 
 ```
 fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
 ```
 
-Script Options
+**Script Options**
 
 The installation script supports the following options:
 
