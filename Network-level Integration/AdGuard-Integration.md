@@ -32,8 +32,11 @@ fetch -o - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scri
 The installation script supports the following options:
 
 -c <channel> : Use the specified release channel
+
 -r : Reinstall AdGuard Home
+
 -u : Uninstall AdGuard Home
+
 -v : Enable verbose output
 
  Note: Options -r and -u are mutually exclusive.
