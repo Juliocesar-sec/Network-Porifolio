@@ -12,7 +12,8 @@ It works as a DNS server, intercepting requests to tracking or ad domains and re
 
 ---
 
-## Installation
+<h2 align="center">Installation</h2>
+
 
 You can install AdGuard Home using one of the following methods:
 
@@ -46,7 +47,7 @@ The installation script supports the following options:
  
 ---
 
-## Next Steps After Installation
+<h2 align="center">Next Steps After Installation</h2>
 
 After you have installed AdGuard Home using the script, you need to access the web interface to complete the setup and configure your network.
 
