@@ -1,5 +1,10 @@
 #  FIREWALL 
 
+![Firewall](https://img.shields.io/badge/Firewall-Network%20Protection-red?style=for-the-badge&logo=pfsense&logoColor=white)
+![pfSense](https://img.shields.io/badge/pfSense-Security%20Gateway-212121?style=for-the-badge&logo=pfsense&logoColor=white)
+![UFW](https://img.shields.io/badge/UFW-Uncomplicated%20Firewall-orange?style=for-the-badge&logo=ubuntu&logoColor=white)
+![iptables](https://img.shields.io/badge/iptables-Linux%20Firewall-blue?style=for-the-badge&logo=linux&logoColor=white)
+
 **What is a Firewall?**
 
 A firewall is a security system, implemented through software, hardware, or both, designed to control network traffic by allowing or blocking connections according to predefined security rules.
