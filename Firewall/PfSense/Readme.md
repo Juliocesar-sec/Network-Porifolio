@@ -1,6 +1,8 @@
 
 # pfSense – Practical Guide
 
+![pfSense](https://img.shields.io/badge/pfSense-Security%20Gateway-212121?style=for-the-badge&logo=pfsense&logoColor=white)
+
 📌 **What is pfSense?**
 
 pfSense is an open-source firewall and routing platform built on top of FreeBSD. It is designed to provide enterprise-grade network security, routing, and traffic control in a flexible and customizable way.
