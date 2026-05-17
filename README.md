@@ -34,7 +34,7 @@ Our vision is that good IT support should combine technical competence, communic
 
 ---
 
-#  Skills
+##  Skills
 
  ***IT Support***-
  Practical support skills focused on diagnosing, maintaining, and resolving common technical problems across user environments.
@@ -69,14 +69,14 @@ Our vision is that good IT support should combine technical competence, communic
 - Proxmox
 - Remote Desktop Tools
 
-#  Certifications
+##  Certifications
 
 - Google IT Support Professional Certificate
 - Cisco Certified Support Technician (CCST)
 - Cisco Networking Basics
 ---
 
-#  Projects
+##  Projects
 
 ###  Office Network Setup
 Designed and configured a small office network with:
