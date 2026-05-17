@@ -1,6 +1,8 @@
 
 ##  UFW – Practical Guide 
 
+![UFW](https://img.shields.io/badge/UFW-Uncomplicated%20Firewall-orange?style=for-the-badge&logo=ubuntu&logoColor=white)
+
 📌 ***What is UFW?***
 
 UFW (Uncomplicated Firewall) is a lightweight firewall management tool for Linux systems. It is intentionally simple: not a full enterprise security suite, not a packet inspection framework, and not a replacement for the Linux firewall stack itself. The main path is a clean and human-readable interface built on top of iptables, designed to make firewall configuration practical for everyday administration.
